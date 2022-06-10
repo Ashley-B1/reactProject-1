@@ -1,0 +1,39 @@
+.nav-bar {
+  border: solid red 2px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0,0.4);
+  height: 4.5rem;
+  align-items: center;
+  padding: 0 4rem 0 2.5rem;
+}
+
+.logo-link img{
+  cursor: pointer
+}
+
+.nav-options {
+  list-style-type: none;
+  padding: .3rem;
+  /* border: solid blue 2px; */
+}
+
+.nav-items {
+  display: inline;
+  margin: 0px 1.5rem;
+  font-size: 13pt;
+  color: #fff;
+  cursor: pointer;
+  padding: .5rem;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  padding-bottom: .5rem
+}
+
+.nav-link:hover {
+  text-decoration: underline #fff;
+  text-underline-offset: .3rem;
+}

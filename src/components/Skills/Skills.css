@@ -1,0 +1,14 @@
+.skills-grid {
+  border: solid red 2px;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../images/architecture-2178604_1920-main1.jpg);
+  background-attachment: fixed;
+  background-attachment: center center;
+  color: white;
+}

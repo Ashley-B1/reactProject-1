@@ -1,0 +1,63 @@
+.hero-container {
+  height: 100vh;
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url(../../images/apple-1838564_1920-main.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.hero-about {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 8.5rem;
+  margin-bottom: 3rem;;
+}
+
+#intro {
+  font-weight: 400;
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+#name {
+  font-size: 100pt;
+  font-weight: 500;
+  margin-bottom: 1.3rem;
+}
+
+#career {
+  font-weight: 400;
+  font-size: 33pt;
+}
+
+.hero-opt {
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  border: #fff solid 2px;
+  width: 35%;
+  height: 2.8rem;
+  font-size: clamp(16pt, 16pt, 1.9rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: ease-out .5s;
+  background-color: #fff;
+  color: #000;
+}

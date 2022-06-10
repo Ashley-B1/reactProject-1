@@ -1,8 +1,7 @@
 .nav-bar {
-  border: solid red 2px;
   display: flex;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0,0.4);
+  background-color: rgba(20, 20, 20, 0.1);
   height: 4.5rem;
   align-items: center;
   padding: 0 4rem 0 2.5rem;
@@ -15,7 +14,6 @@
 .nav-options {
   list-style-type: none;
   padding: .3rem;
-  /* border: solid blue 2px; */
 }
 
 .nav-items {

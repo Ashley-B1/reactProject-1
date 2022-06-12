@@ -3,13 +3,13 @@ import {
   Route
 } from 'react-router-dom'
 
-import Hero from './components/Hero';
+import SplashPage from './components/SplashPage';
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={ <Hero /> } />
+        <Route path='/' element={ <SplashPage /> } />
       </Routes>
     </>
   );

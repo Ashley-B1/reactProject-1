@@ -1,0 +1,45 @@
+.portfolio-snip {
+  border: solid red 2px;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #59585d;
+  padding: 50px;
+  color: white;
+}
+
+.port-header {
+  text-align: center;
+  border: solid yellow 2px;
+  margin-bottom: 2.32rem;
+}
+
+.port-header h1 {
+  font-weight: 400;
+  font-size: 2.16rem;
+  margin: 1.25rem 0 .9rem 0
+}
+
+.port-header i {
+  font-size: 1.4rem;
+  border: solid lime 2px;
+  padding: .2rem;
+}
+
+.projects-section {
+  border: pink solid 2px;
+  display: flex;
+  width: 98.5vw;
+  justify-content: space-evenly;
+}
+
+.proj-box {
+  border: blue solid 2px;
+  width: 420px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

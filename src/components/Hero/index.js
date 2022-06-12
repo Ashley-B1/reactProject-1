@@ -1,8 +1,6 @@
 import './Hero.css';
 
 import NavBar from '../NavBar';
-import AboutPage from '../AboutPage';
-import Skills from '../Skills';
 
 const Hero = () => {
   return (
@@ -21,8 +19,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <AboutPage />
-      <Skills />
     </>
   )
 }

@@ -7,7 +7,6 @@ const Skills = () => {
     <div className='skills-grid'>
       {skills.map(skill => (
         <div className='skill-item' key={skill.id}>
-          {console.log(skill.img)}
           <div>
             <img src={skill.img} className='img-skill' />
           </div>

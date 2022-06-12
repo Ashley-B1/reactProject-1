@@ -12,3 +12,9 @@
   background-attachment: center center;
   color: white;
 }
+
+.skill-item {
+  border: solid yellow 2px;
+  width: 33vw;
+  height: 20vh;
+}

@@ -1,11 +1,10 @@
 .skills-grid {
-  border: solid red 2px;
   display: grid;
-  grid-template-columns: 45% 45%;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 60px 30px;
   height: 80vh;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../images/architecture-2178604_1920-main1.jpg);
   background-attachment: fixed;
@@ -14,7 +13,30 @@
 }
 
 .skill-item {
-  border: solid yellow 2px;
-  width: 33vw;
-  height: 20vh;
+  display: flex;
+  padding: 2.25rem;
+  justify-content: center;
+  height: 35vh;
+}
+
+.img-skill {
+  width: 5rem;
+  display: flex;
+}
+
+.skill-info {
+  width: 34vw;
+  padding: 3% 4%;
+}
+
+.skill-info h3 {
+  width: fit-content;
+  padding: 2% 0;
+  font-weight: 400;
+  font-size: 1.38em;
+}
+
+.skill-info p {
+  font-size: 85%;
+  width: 80%
 }

@@ -2,9 +2,12 @@
   display: flex;
   justify-content: space-between;
   background-color: rgba(20, 20, 20, 0.1);
-  height: 4.5rem;
+  height: 3.2rem;
+  width: 100%;
   align-items: center;
   padding: 0 4rem 0 2.5rem;
+  position: absolute;
+  top: 0;
 }
 
 .logo-link img{
@@ -19,12 +22,16 @@
 .nav-items {
   display: inline;
   margin: 0px 1.5rem;
-  font-size: 13pt;
-  color: #fff;
   cursor: pointer;
   padding: .5rem;
   width: fit-content;
   margin-bottom: 30px;
+}
+
+.nav-items a {
+  font-size: 13pt;
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav-link {

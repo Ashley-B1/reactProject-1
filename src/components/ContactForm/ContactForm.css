@@ -21,7 +21,9 @@
 
 .contact-sect {
   display: flex;
-  height: 65%
+  height: 65%;
+  justify-content: space-around;
+  margin-bottom: 30px;
 }
 
 .contact-left {
@@ -29,12 +31,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 4rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .contact-msg {
   width: 75%;
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-left: 9rem;
 }
 
 .contact-msg h2 {
@@ -51,7 +57,9 @@
 .contact-info {
   align-self: center;
   width: 75%;
-  height: 40%
+  height: 40%;
+  margin-left: 9rem;
+  margin-bottom: 2rem;
 }
 
 .contact-info  h2 {
@@ -64,7 +72,7 @@
 
 .contact-right {
   flex: 3;
-  padding: 4rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -115,4 +123,5 @@
 .form-btn {
   color: white;
   text-decoration: none;
+  margin-bottom: 2rem;
 }

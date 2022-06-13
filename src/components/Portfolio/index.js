@@ -16,11 +16,21 @@ const Portfolio = () => {
           className='proj-box'
           key={project.id}
           >
-            <h2>{project.name}</h2>
-            <p>{project.desc}</p>
+            <div className='product'>
+              <div className='proj-info'>
+                <h2>{project.name}</h2>
+                <p>{project.desc}</p>
+              </div>
+              <div className='btn-box'>
+                <a className='proj-btn'>
+                  More
+                </a>
+              </div>
+            </div>
           </div>
         ))}
       </div>
+      <a className='more-proj proj-btn'>More Projects</a>
     </div>
   )
 }

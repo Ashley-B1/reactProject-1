@@ -1,0 +1,26 @@
+.contact-page {
+  border: solid red 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-intro {
+  border: solid blue 2px;
+}
+
+.contact-sect {
+  border: solid lime 2px;
+  display: flex;
+}
+
+.contact-left {
+  border: solid pink 2px;
+  flex: 3;
+}
+
+.contact-right {
+  border: solid salmon 2px;
+  flex: 3;
+}
